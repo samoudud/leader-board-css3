@@ -24,6 +24,36 @@ hr{
     margin-bottom: 19px;
 }
 
+/* Navigation style */
+header{
+    height: 94px;
+    background-color: #562EFF;
+}
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+    
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    margin-right: 36px;
+}
+
+.logo{
+    width: 40.42px;
+    height: 51px;
+    text-align:center;
+}
+.profile-photo{
+    width: 51px;
+    height: 51px;
+}
+
+
 
 /* Top players style  */
 .top-players{
@@ -93,6 +123,7 @@ hr{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 24px;
+    place-items: center;
 }
 .course{
     width: 252.42px;
